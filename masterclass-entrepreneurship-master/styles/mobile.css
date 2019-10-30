@@ -1,0 +1,140 @@
+@media only screen and (max-width:800px) {
+    /* header.navbar-brand {
+        padding-left: 1rem;
+    }
+*/
+   /* carusel*/
+   .scene2{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .carousel{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .carosel__cell{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .menu_buttons{
+    transform: translate3d(-10px,50px,0);
+    align-items:center;
+    justify-content: center; 
+    margin-left:30%
+
+  }
+    header .row .col-md-5 img {
+
+        width: 150%;
+        margin-left: -250%;
+        margin-top:-200%; 
+        
+
+    }
+
+    header .row .col-md-7 {
+        margin-top: -10%;
+    }
+
+    .navbar.fa {
+        margin-left: -10%;
+        cursor: pointer;
+
+    }
+
+    header.container.row.col-md-7.btn1 {
+        width: 90px;
+        height: 90px;
+        border-radius: 4rem;
+    }
+
+
+    .section-1.row.col-md-6.panel {
+        margin-top: 10%;
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2.cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers.rect {
+        width: 90rem;
+        height: 8rem;
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+
+    .section-3 .row .d-flex .col-md-6.flip-card {
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4.row .d-flex .col-md-6.flip-card {
+        display: flex;
+        flex-direction: vertical;
+        align-content: center;
+    }
+
+
+    .carousel .carousel-item .login_img {
+        margin-top: 20%;
+        height: 900%;
+    }
+
+
+}
+@media (max-width: 360px) {
+
+  body{
+    text-align: center;;
+  }
+  .scene2{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+
+  }
+
+  .carousel{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .carosel__cell{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .menu_buttons{
+    align-items: center;
+    transform: translate3d(-10px,50px,0);
+  }
+}
+
+@media only screen and (max-width:360px){
+header .row.col-md-5 img {
+    margin-left:80%; 
+    width:10px;
+      height:50px; 
+}
+header .row.col-md-7{
+    margin-top:200%; 
+}
+.carousel .carousel-item .login_img {
+        margin-top: 20%;
+        height: 300px;
+        width:300px; 
+    }
+}
